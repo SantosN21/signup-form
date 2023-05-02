@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: wrap;
+}
+
+.background-image {
+  background-image: url(images/sample2.avif);
+  background-repeat: no-repeat;
+}
+.background-image,
+.sign-up-form {
+  height: 100vh;
+}
+.sign-up-form {
+  width: 70%;
+}
+.background-image {
+  width: 30%;
+}
+
+.logo-container {
+  height: auto;
+  top: 20vh;
+  position: relative;
+  gap: 1vw;
+  background-color: rgba(233, 229, 229, 0.3);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Bruno Ace SC", cursive;
+  padding: 20px;
+  color: white;
+}
+
+.sign-up-form {
+  background-color: #f1f6f9;
+  align-items: center;
+  color: #212a3e;
+}
+
+.header-text {
+  font-size: 25px;
+  padding: 40px;
+  margin-top: 120px;
+}
+.italics {
+  font-size: 25px;
+  padding:40px 0 15px 40px;
+}
+.italics-1 {
+  font-size: 25px;
+  padding: 2px 0 15px 40px;
+}
+
+
+h1 {
+  padding-left: 40px;
+}
+.input-items {
+  padding: 20px;
+  gap: 20px;
+  padding: 20px;
+  background-color: #9ba4b5;
+  box-shadow: 1px 1px 5px rgb(8, 8, 8);
+}
+
+.input {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+/* button  */
+.button-42 {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #394867, #9ba4b5);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter, -apple-system, system-ui, Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+  height: 40px;
+  line-height: 40px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  z-index: 9;
+  border: 0;
+  transition: box-shadow 0.2s;
+  margin-left: 140px;
+  margin-top: 40px;
+}
+
+.button-42:hover {
+  box-shadow: rgba(98, 174, 236, 0.5) 0 3px 8px;
+}
+.account {
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.log-in {
+    text-decoration: none;
+    color: #9BA4B5;
+    font-weight: 900;
+}
+
+.credits{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 30vw;
+    height: 20px;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.daniel {
+    color: black;
+}
+.container-text {
+  font-size: 30px;
+}
+label {
+  font-size: 12px;
+  color: #212a3e;
+  font-weight: 900;
+}
+input {
+  border-style: none;
+  width: 600px;
+  height: 28px;
+  border-radius: 5px;
+  border: 1px solid rgb(224, 224, 224);
+}
+
+input:focus {
+
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.342);
+  outline: none;
+  border: 2px solid #478a3e;
+}
+
+.parent-div {
+  display: flex;
+  gap: 15px;
+  padding: 20px;
+}
